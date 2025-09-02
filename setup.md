@@ -14,6 +14,7 @@ HiddenServicePort 25565 127.0.0.1:25565
 DataDirectory E:\Tor\TorExpertBundle\Data
 
 Log notice stdout
+Log notice file E:\Tor\TorExpertBundle\tor\log.txt
 ```
 
 tor.exe -f torrc
